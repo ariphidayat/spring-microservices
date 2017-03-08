@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    books:
+      url: http://localhost:8090
+
+ribbon:
+  eureka:
+    enable: false
+
+server:
+  port: 8080
