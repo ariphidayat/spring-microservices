@@ -3,4 +3,7 @@ zuul:
     product-service:
       path: '/product/**'
       serviceId: product-service
+    order-service:
+      path: '/order/**'
+      serviceId: order-service
   ignored-services: '*'
