@@ -1,4 +1,4 @@
-package id.arip.eureka;
+package id.arip.discovery;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
