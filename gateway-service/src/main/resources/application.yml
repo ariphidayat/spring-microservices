@@ -1,12 +1,6 @@
-server:
-  port: 8081
-
 spring:
   application:
-    name: product-service
-  cloud:
-    config:
-      uri: http://localhost:8888
+    name: gateway-service
 
 eureka:
   instance:
