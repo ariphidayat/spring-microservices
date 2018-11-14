@@ -6,4 +6,5 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}/config-repo
+          uri: https://github.com/ariphidayat/spring-microservices
+          search-paths: config-repo
