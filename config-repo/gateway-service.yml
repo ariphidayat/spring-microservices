@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    product-service:
+      path: '/product/**'
+      serviceId: product-service
+  ignored-services: '*'
